@@ -1,0 +1,18 @@
+[project]
+name = "visuallab"
+version = "0.1.0"
+description = "A step-by-step local computer vision project for tracking a chosen number card"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=2,<3",
+    "opencv-python>=4.10,<5",
+    "psutil>=7.2,<8",
+]
+
+[project.optional-dependencies]
+ocr = ["onnxruntime>=1.20,<2"]
+yolo = ["ultralytics==8.4.177"]
+
+[tool.uv]
+package = false

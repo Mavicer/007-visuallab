@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+captures/
+models/
+datasets/
+runs/
+
+# Local development state and secrets
+docs/PROJECT_STATE.md
+.env
+.env.*
+*.pem
+*.key
